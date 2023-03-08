@@ -2,9 +2,9 @@
 
 A simple DNS standard server that proxies to DoH(DNS over HTTPS) written in Node.js
 
-### Next features
+### Next steps
 
-- Support HTTP/2 for speed up multiple requests
+- Add support to HTTP/2 for speed up multiple requests
 - Translate code to `Rust` or `GoLang` for performance
 
 ### How to setup
@@ -18,11 +18,16 @@ cp .sample.env .env
 Install dependencies
 
 ```sh
-npm install
+yarn install
 ```
 
-Run server
+yarn server
 
 ```sh
-npm start
+yarn start
+```
+
+Run tests
+```sh
+yarn test
 ```
