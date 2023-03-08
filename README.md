@@ -1,6 +1,6 @@
 # dns-over-https-nodejs
 
-A simple DNS Server that proxies to DoH(DNS over HTTPS) written in Node.js
+A simple DNS standard server that proxies to DoH(DNS over HTTPS) written in Node.js
 
 ### Next features
 
