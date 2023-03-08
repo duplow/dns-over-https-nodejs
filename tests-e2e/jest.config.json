@@ -1,0 +1,14 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "rootDir": "./",
+  "transform": {
+    "node_modules/variables/.+\\.(j|t)sx?$": "ts-jest"
+  },
+  "testRegex": ".e2e.spec.ts$",
+  "testTimeout": 30000,
+  "maxConcurrency": 1,
+  "transformIgnorePatterns": [
+    "node_modules/(?!variables/.*)"
+  ]
+}
